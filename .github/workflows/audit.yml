@@ -14,5 +14,6 @@ jobs:
         run: |
           mkdir -p "$(brew --repository)/Library/Taps/e-dream-ai"
           ln -s "$GITHUB_WORKSPACE" "$(brew --repository)/Library/Taps/e-dream-ai/homebrew-tap"
+      - run: brew trust --cask e-dream-ai/tap/infinidream
       - run: brew style e-dream-ai/tap/infinidream
       - run: brew audit --cask --strict --online e-dream-ai/tap/infinidream
