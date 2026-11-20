@@ -5,7 +5,7 @@ cask "infinidream" do
   url "https://github.com/e-dream-ai/client/releases/download/#{version}/infinidream-#{version}.dmg",
       verified: "github.com/e-dream-ai/client/"
   name "infinidream"
-  desc "Generative AI dream player and screensaver"
+  desc "Visuals for your vibe, ambient AI visuals"
   homepage "https://infinidream.ai/"
 
   livecheck do
