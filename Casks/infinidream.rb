@@ -1,6 +1,6 @@
 cask "infinidream" do
-  version "0.17.2"
-  sha256 "5d56b576cf02b81c83ab8494f73a75b0067f657e3d7673a55b61867e873a42f9"
+  version "0.17.3"
+  sha256 "fb1a2a13e6f9a482c50f846e4a625b04b45e7e1f5d81d429112649ea3ca73c42"
 
   url "https://github.com/e-dream-ai/client/releases/download/#{version}/infinidream-#{version}.dmg",
       verified: "github.com/e-dream-ai/client/"
